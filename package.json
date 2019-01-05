@@ -1,0 +1,17 @@
+{
+  "name": "masg",
+  "productName": "Masg (Android Messages)",
+  "version": "1.0.0",
+  "description": "Android Messages in an app",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . --icon=masg.icns --out=app_masg --overwrite"
+  },
+  "author": "Dubeys",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.1",
+    "electron-packager": "^13.0.1"
+  }
+}
